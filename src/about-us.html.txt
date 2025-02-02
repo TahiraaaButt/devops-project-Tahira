@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about-us.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Navigation links can go here -->
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <section class="about-us">
+        <h1>About Us</h1>
+        <p>We are a dedicated team passionate about providing the best solutions to our clients. Our mission is to innovate and deliver top-notch products and services that exceed expectations.</p>
+
+        <h2>Our Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="team-member1.jpg" alt="Team Member 1">
+                <p>John Doe - CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="team-member2.jpg" alt="Team Member 2">
+                <p>Jane Smith - CTO</p>
+            </div>
+            <!-- Add more team members as necessary -->
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
