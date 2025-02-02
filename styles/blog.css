@@ -1,0 +1,31 @@
+.blog {
+    padding: 40px 0;
+    text-align: center;
+    background: white;
+  }
+  
+  .blog-post {
+    background: #ff0000;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .blog h2 {
+    margin-bottom: 10px;
+  }
+  
+  
+  .blog-post .btn {
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: white;
+    color: #ff0000;
+    padding: 10px 15px;
+   
+  }
+  
+  .blog-post .btn:hover {
+    background: #fff;
+  }
