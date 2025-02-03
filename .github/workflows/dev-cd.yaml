@@ -4,12 +4,14 @@ on:
   push:
     branches:
       - develop
-
+permissions:
+  id-token: write
+  contents: read
 jobs:
   deploy:
     runs-on: ubuntu-latest
     environment: development-env
-    steps:+
+    steps:
       - name: Checkout Code
         uses: actions/checkout@v3
 
