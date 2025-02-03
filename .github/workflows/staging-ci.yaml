@@ -1,7 +1,5 @@
 
 
-staging-ci.yml:
-
 name: Staging CI
 
 on:
@@ -9,7 +7,10 @@ on:
     branches:
       - release
     types: [opened, synchronize, reopened]
-
+permissions:
+  id-token: write
+  contents: read
+  
 jobs:
   ci:
     runs-on: ubuntu-latest
